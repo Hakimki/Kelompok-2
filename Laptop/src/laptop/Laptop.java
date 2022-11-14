@@ -83,7 +83,7 @@ package laptop;
     public static void main(String[] args) {
         
         Laptop hooh = new Laptop();
-        hooh.merkLaptop = "Hp Pavilion Gaming 15";
+        
         
        hooh.setMerkLaptop("Lenovo Ideapad 3");
        hooh.setJenisProsessor("AMD Ryzen 7 5000H");
