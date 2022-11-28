@@ -9,10 +9,12 @@ package laptop;
  *
  * @author Fahmi Hakim
  */
- class Laptop {
+ class Laptop{
 
-   private String merkLaptop, jenisProsessor, kodeLaptop;
-   private int  tahun, harga;
+     String merkLaptop;
+
+   String jenisProsessor, kodeLaptop;
+   int  tahun, harga;
    
    
 //   public void setmerkLaptop(String merkLaptop){
@@ -78,22 +80,5 @@ package laptop;
   String matikanLaptop() {
     return "Matikan Laptop";
   }
-
-           
-    public static void main(String[] args) {
-        
-        Laptop hooh = new Laptop();
-        
-        
-       hooh.setMerkLaptop("Lenovo Ideapad 3");
-       hooh.setJenisProsessor("AMD Ryzen 7 5000H");
-       hooh.setKodeLaptop("14ALC6");
-       hooh.setTahun(2020);
-       
-        System.out.println("Merk Laptop :" + hooh.getMerkLaptop());
-        System.out.println("Kode Laptop :" + hooh.getKodeLaptop());
-        System.out.println("Prosessor :" + hooh.getJenisProsessor());
-        System.out.println("Tahun Keluar :" + hooh.getTahun());
-    }
     
 }
